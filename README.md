@@ -15,8 +15,8 @@ Red Pilling the Learners Guild Programmer's Matrix
 - [ ] Write reader and writer methods
 - [ ] Explain private vs public properties
 ### Unix
-- [ ] Explain what the `.bashrc` and `.bash_profile` files do
-- [ ] Explain what a path is
+- [x] Explain what the `.bashrc` and `.bash_profile` files do
+- [x] Explain what a path is
 - [ ] Explain the difference between an absolute and relative path
 - [ ] Explain the difference between an `/`, `./` , `../`
 - [ ] Explain what these key commands do `control-c`, `control-d`, `control-z`, `control-a`, `control-e`
@@ -79,7 +79,7 @@ Red Pilling the Learners Guild Programmer's Matrix
 - [ ] Explain when to use an id vs. a class name
 - [ ] Explain what these CSS selectors do: `.signup-form`, `.signup-form .first-name-field`, `table.stripped-table`, `a.button:hover`, `.IconButton > button`, `table > tr:nth-child(odd)`
 - [ ] Explain these pseudo-selectors `:hover,:focus,:active,:visited,:disabled,:checked,:nth-child`
-- [ ] Explan these CSS properties: `border, margin, padding, height, width, background, display, color, font-size, font-weight, flex-direction, flex-wrap, align-items, align-content, flex-grow`
+- [ ] Explain these CSS properties: `border, margin, padding, height, width, background, display, color, font-size, font-weight, flex-direction, flex-wrap, align-items, align-content, flex-grow`
 - [ ] Inspect and edit an element in the DOM tree using Chrome Developer Tools
 - [ ] Implement a two column layout with a fixed-width sidebar and flexible width main area
 - [ ] Explain what a 'reset stylesheet' is and why they are used
@@ -191,3 +191,152 @@ Red Pilling the Learners Guild Programmer's Matrix
 - [ ] Type all 26 alphabetical keys without looking at the keyboard
 - [ ] Write plain English at > 30 WPM
 - [ ] Write code at > 15 WPM
+# Priority 2
+## Programming
+### Requirements
+- [ ] Identify missing and/or ambiguous areas in requirements
+- [ ] Ask questions to gather requirements for missig areas
+### Testing
+- [ ] Implement tool for measuring test coverage
+- [ ] Achieve 100% test coverage
+- [ ] Program using test-driven development (TDD)
+- [ ] Publish a blog post explaining the costs and benefits of TDD
+- [ ] Use mocks and stubs to isolate class testing
+### Technical Design
+- [ ] Explain what a design pattern is
+- [ ] Explain Singleton, Factory, Strategy, Template, and Observer design patterns
+### OOP
+- [ ] Explain single responsibility principle
+- [ ] Explain SOLID
+- [ ] Write a blog post explaining the difference between inheritance and composition, and example use cases for both
+### Functional Programming
+- [ ] List the core concepts behind functional programming
+- [ ] Explain pure functions, first-class/higher-order functions, and immutable values
+### Data Structures and Algorithms
+- [ ] Whiteboard an illustration of arrays, hashes, stacks, queues, and linked lists
+- [ ] Explain what time and space mean when describing algorithm complexity
+- [ ] Explain difference in efficiency of checking for a value in an array vs hash table
+- [ ] Implement merge sort, quick sort, and bubble sort functions
+- [ ] Implement BFS and DFS functions
+### Unix/Bash
+- [ ] Create a basic bash script
+- [ ] Use and explain redirects
+- [ ] Explain process exit status
+- [ ] Start and stop processes via `brew services`
+- [ ] Read environment variables
+- [ ] Read process arguments
+- [ ] Spawn child processes
+- [ ] Prompt for user input
+- [ ] Read from STDIN
+- [ ] Exit with desired exit status code
+### Code Quality
+- [ ] Setup and use ESlint
+## Javascript
+### JS Intermediate
+- [ ] How to create and use a function constructor
+- [ ] Explain variable scoping, including lexical scopes and dynamics scopes
+- [ ] Explain what a closure is and why they are used
+- [ ] Explain prototypes
+- [ ] Implement prototypical inheritance
+- [ ] Explain the difference between Classic Inheritance and Prototypical Inheritance
+- [ ] Explain how 'this' gets its value and create a code example
+- [ ] Show how to use private, public , and static variables/functions
+- [ ] Show how to extend built-in objects
+### JS Advanced
+- [ ] Explain what a callback is write an example
+- [ ] Explain what a Promise is and write an example
+- [ ] Write a function that converts a callback API into a Promise API
+- [ ] Use promises to defined both parallel and serial execution orders
+- [ ] Throw and catch errors in a promise chain
+### Debugging
+- [ ] Log backtraces with `console.trace`
+- [ ] Use debugger to set break points
+- [ ] Use debugger to step up and down the call stack
+- [ ] Use debugger to evaling code at a specific points
+## Frontend
+### HTML/CSS
+- [ ] Explain what a media-query is and how they are used
+- [ ] Create a layout that is two columns on when viewed in a desktop browser full-screen, and one column when viewed from a phone
+### JS in the Browser
+- [ ] Explain what XHR is
+- [ ] Make a XHR request without any libraries
+- [ ] Make a XHR request using jQuery
+- [ ] Examine XHR request using the Chrome Developer Tools
+- [ ] Understanding fetch method and browser support
+- [ ] Explain CORS and common workarounds
+### UX/UI Design
+- [ ] Resize, crop, and optimize images in Photoshop/Sketch
+- [ ] Mock up a simple page with Photoshop/Sketch
+- [ ] Explain common typographic terms (serif, sans-serif, kerning)
+- [ ] Use Google Fonts and Typekit
+## Backend
+### Server Applications
+- [ ] Implement logging in a web app
+- [ ] Implement server-side routing in a web app
+- [ ] Render `HTML` from a `pug` template in response to a request
+- [ ] Render `JSON` in response to a request
+- [ ] Create a web app with client-side rendering
+- [ ] Implement pagination
+- [ ] Explain two API pagination impementations
+- [ ] Implement authorization in a web app
+- [ ] Implement authentication in a web app
+- [ ] Explain the difference between authorization vs. authentication
+- [ ] Explain and use websockets
+- [ ] Use OAuth to authenticate with a third-party service
+- [ ] Implement file upload
+- [ ] Implement graceful error handling (display 500 page on server error)
+- [ ] Use HTTPS
+### Databases
+- [ ] Design and use a join table without an auto-incrementing ID column
+- [ ] Define an index as a unique constraint on a column
+- [ ] Explain how indexes work and costs/benefits
+- [ ] Write a query that joins more than 2 tables
+- [ ] Explain the difference between INNER, FULL OUTER, LEFT OUTER, & RIGHT OUTER joins
+- [ ] Explain the difference between a normalized and denormalized schema
+- [ ] Use transactions to ensure your changes are gauranteed all-or-nothing
+### APIs
+- [ ] Describe the RESTful API design
+- [ ] Familiar with JSON response conventions like jsonapi.org
+- [ ] Write out the methods and paths for a nested RESTFUL resource
+- [ ] Design error HTTP status codes and responses
+### HTTP
+- [ ] Explain how DNS works
+- [ ] Explain how TCP works
+- [ ] Explain how HTTPS works
+### Deployment Beginner
+- [ ] Build code for production
+- [ ] Deploy app to Heroku
+- [ ] Check the logs of a Heroku app
+- [ ] Debug a failed build on Heroku
+- [ ] Integrate a Heroku add-on
+- [ ] Register a domain name
+- [ ] Setup a staging server on Heroku
+### Deployment Intermediate
+- [ ] Setup a CI system
+- [ ] Setup automatic deploys when all tests pass
+### Security
+- [ ] Explain CSRF and how to protect against it
+- [ ] Explain XSS and how to protect against it
+- [ ] Explain SQL injection and how to protect against it
+- [ ] Explain how HTTPS is "secure"?
+## Code Quality
+### Code Construction
+- [ ] SOLID principals, knows popular eslint configs, and what eslint rules to break
+### Code Readability
+- [ ] No long functions, comments explaining unusual code, bug fixes, code assumptions functions. Clean, precise commit messages.
+### Code Organization
+- [ ] Code is grouped into regions and well commented with references to other source files. Each physical file has a unique - [ ] purpose, for e.g. one class definition, one feature implementation etc
+## Collaboration
+### Git 
+- [ ] Create a new commit that undoes the previous commit
+- [ ] Revert codebase back to a specific commit
+- [ ] Revert a specified file to a specific version committed previously
+- [ ] Explain difference between reset --HARD and --SOFT
+- [ ] Use `reflog` to revert codebase
+### Engineering Process
+- [ ] Explain shortfalls of time-based estimation
+- [ ] Explain point-based estimation
+- [ ] Explain why Fibonnaci scale is useful for point-based estimation
+- [ ] Explain T-shirt estimation as alternative to points
+- [ ] Explain estimation processes (eg. planning poker)
+- [ ] Explain how to estimate completion of future work using velocity
